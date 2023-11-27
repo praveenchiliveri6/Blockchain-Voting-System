@@ -16,7 +16,7 @@ and hosted it on Ganache, (you can also deploy the contract on public ethereum l
 Clone Repo: 
 
 ```sh
-git clone https://github.com/praveenchiliveri6/Blockchain-Project.git
+https://github.com/praveenchiliveri6/Blockchain-Voting-System.git
 cd Blockchain-Project
 ```
 
