@@ -1,0 +1,131 @@
+.body11 {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 0px 0px 100px 0px; 
+}
+
+select {
+    width: 320px; 
+    padding: 10px 20px;
+    font-family: 'Ninja Naruto', sans-serif; 
+    font-weight: 600;
+    font-size: 18px; 
+    cursor: pointer;
+    background-color: #1E90FF; 
+    color: white;
+    border: 4px solid #1E90FF; 
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+}
+
+select:hover {
+    border: 4px solid #00BFFF; 
+}
+
+select option {
+    background-color: black; 
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.VoteBtn {
+    width: 130px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-family: 'Ninja Naruto', sans-serif; 
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1E90FF; 
+    color: white; 
+    border: 2px solid #1E90FF; 
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.5); 
+}
+
+.VoteBtn:hover {
+    background-color: #00BFFF;
+    border: 2px solid #00BFFF;
+}
+
+.popup {
+    width: 400px;
+    background: #FF7F00; 
+    color: black; 
+    border-radius: 10px; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 20px; 
+    visibility: hidden;
+    transition: transform 0.2s, top 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+    font-size: 32px; 
+    font-weight: bold; 
+    margin: 15px 0;
+    font-family: 'Ninja Naruto', sans-serif; 
+}
+
+.popup button {
+    width: 80%; 
+    margin-top: 30px; 
+    padding: 12px 0; 
+    background: black; 
+    color: #FF7F00;
+    border: 2px solid #FF7F00; 
+    font-size: 20px; 
+    border-radius: 6px; 
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-input {
+    width: 320px; 
+    height: 50px;
+    padding: 10px 20px;
+    font-family: 'Ninja Naruto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1E90FF; /* Naruto-themed blue */
+    color: white;
+    border: 4px solid #1E90FF; /* Border color */
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.5); /* Shadow for depth */
+    margin-bottom: 20px; /* Space between inputs */
+}
+
+.custom-input:hover {
+    border: 4px solid #00BFFF; /* Lighter blue on hover */
+}
+
+.custom-input:focus {
+    border-color: #FF7F00; /* Naruto orange when focused */
+    box-shadow: 0 0 10px rgba(255, 127, 0, 0.5); /* Shadow color change on focus */
+}
+
+.custom-input::placeholder {
+    color: #808080; /* Lighter color for placeholder text */
+    font-weight: normal;
+}

@@ -1,0 +1,30 @@
+.footer {
+    width: 100vw;
+    height: 60px;
+    background-color: #FF7F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px; 
+    padding-left: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.love-icon {
+    color: black;
+    padding: 0 5px; 
+}
+
+.made-with-love {
+    font-weight: bold;
+    color: black; 
+    font-family: 'Ninja Naruto', sans-serif; 
+}
+
+.team-name {
+    color: black;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}

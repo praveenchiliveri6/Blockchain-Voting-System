@@ -1,0 +1,52 @@
+.input-button-container-addVoter {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 85vh; /* Full viewport height */
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.text_btn-addVoter {
+    background-color: #1E90FF; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.h3 {
+    color: white; 
+    margin-bottom: 10px; 
+}
+
+.custom-input-addVoter {
+    width: 250px; 
+    padding: 12px;
+    border: 2px solid #1E90FF; 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; 
+    outline: none;
+    color: black;
+    background-color: white; 
+}
+
+.custom-button-addVoter {
+    padding: 12px 24px;
+    background-color: black; 
+    color: #1E90FF; 
+    border: 2px solid #1E90FF; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.custom-button-addVoter:hover {
+    background-color: #1E90FF; 
+    color: white; 
+}

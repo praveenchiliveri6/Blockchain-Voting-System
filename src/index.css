@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+
+    
+    --font-family: 'Manrope', sans-serif;
+/* colors */
+    
+    --color-bg: #212121;
+    --color-black : #131313;
+    --color-blue: #1A44F0;
+    --color-sky: #50B0F3;
+    --color-card: #2c2d35;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+
+}
+
+.mainbody{
+  overflow-x: hidden;
+}
+.headings-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10%; /* Adjust padding as needed */
+  background-color: black; /* Black background for the container */
+}
+
+.resultsHeading {
+  color: #32CD32; /* Naruto green for text */
+  font-size: 2em;
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'Ninja Naruto', sans-serif;
+  flex-grow: 1; /* Allow it to grow to fill space */
+  background-color: black; /* Black background */
+}
+
+.winner {
+  text-align: right; /* Align text to the right */
+  color: #32CD32; /* Naruto green for text */
+  font-size: 2em; /* Match the size of resultsHeading */
+  font-family: 'Ninja Naruto', sans-serif;
+  margin: 0;
+  padding-top: 50px;
+  background-color: black; /* Black background */
+}
+
+
+
+
+
