@@ -50,7 +50,7 @@ Run The Application:
 npm start
 ```
 
- Open `localhost:3000` to access the application!
+ Open `localhost:3000/admin` to access the application!
 
 To start using the voting application, please watch the youtube video at https://youtu.be/yKgKdhdQXtI
 
